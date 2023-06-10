@@ -1,0 +1,8 @@
+handshake capture:
+airodump-ng --bssid <target network BSSID> --channel <target network channel> -write <file name> <interface>
+
+wordlist:
+crunch <min characters> <max characters> <all possible characters> -o <file name>
+
+cross reference:
+aircrack-ng <captued file name> -w <wordlist name>
